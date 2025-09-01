@@ -1749,14 +1749,14 @@ body {
 .dept-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 77px;
 }
 
 .dept-card {
     background: var(--bg-white);
-    padding: 40px 30px;
+    padding: 50px 30px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 60px;
     box-shadow: var(--shadow-md);
     transition: all 0.3s ease;
     position: relative;
@@ -1817,10 +1817,10 @@ body {
 }
 
 .dept-card h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     color: var(--text-primary);
-    font-weight: 600;
+    font-weight: 650;
 }
 
 .dept-card p {
